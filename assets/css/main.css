@@ -1071,7 +1071,7 @@
 	body {
 		background: #f0f0f0;
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
+		font-weight: 700;
 		color: #777;
 	}
 
@@ -1092,9 +1092,14 @@
 		color: #777;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3{
 		font-weight: 600;
 		text-transform: uppercase;
+		color: #888;
+	}
+
+	h4, h5, h6 {
+		font-weight: 600;
 		color: #888;
 	}
 
@@ -1133,6 +1138,12 @@
 	strong, b {
 		font-weight: 600;
 		color: #666;
+	}
+
+	superstrong, b {
+		font-weight: 700;
+		color: #ed786a;
+        font-size: 20pt
 	}
 
 	em, i {
@@ -1759,19 +1770,19 @@
 
 			body, input, textarea, select {
 				line-height: 1.65em;
-				font-size: 13pt;
+				font-size: 16pt;
 			}
 
 			h2 {
-				font-size: 1.65em;
-				font-weight: 400;
+				font-size: 2em;
+				font-weight: 600;
 				letter-spacing: 4px;
 				margin: 0 0 1.5em 0;
 				line-height: 1.75em;
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.5em;
 				letter-spacing: 2px;
 				margin: 0 0 1.25em 0;
 			}
